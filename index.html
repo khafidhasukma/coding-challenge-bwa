@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto - Restaurant Landing Page</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <style>
+      .navbar {
+        background-color: #f12b2f;
+      }
+      .navbar-nav .nav-link,
+      .navbar-nav .show > .nav-link {
+        color: white !important;
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+      }
+      .nav-link:focus {
+        font-weight: 700;
+      }
+      #aspiration {
+        padding: 5rem 0;
+      }
+      .title {
+        font-size: 2.8rem;
+        font-weight: 700;
+      }
+
+      .form-control {
+        border-radius: 12px;
+        border: 1.5px solid #ced4da;
+        box-shadow: none !important;
+        font-size: 0.875rem;
+      }
+      label,
+      input {
+        font-size: 0.875rem;
+      }
+      .btn-sent {
+        padding: 0.75rem 3rem;
+        background-color: #f12b2f;
+        border-radius: 12px;
+      }
+      .btn-sent:hover {
+        background-color: #cf090d;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/src/img/logo.svg" width="40" alt="" />
+        </a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-2">
+              <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
+            </li>
+            <li class="nav-item dropdown pe-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="navbarDropdown" aria-expanded="false"> PENGURUS </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">DOKUMENTASI KAJIAN</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">KONTAK MAFIA </a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link" href="#">E-PERPUSTAKAAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HUBUNGI KAMI</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <section class="container">
+      <div id="aspiration">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <div class="w-75">
+            <div class="text-center">
+              <h1 class="title">KONTAK MAFIA</h1>
+            </div>
+            <form class="mt-5">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="John Doe" />
+                <label for="name">Nama</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="name" placeholder="name@domain.com" />
+                <label for="name">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="phone" class="form-control" id="name" placeholder="08822314133" />
+                <label for="name">No. Telepon / HP</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="NPM" />
+                <label for="name">NPM</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Ilmu Komputer" />
+                <label for="name">Fakultas</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Teknik Informatika" />
+                <label for="name">Program Studi</label>
+              </div>
+              <div class="form-floating mb-5">
+                <textarea class="form-control" placeholder="Saran dan masukan" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Saran dan masukan</label>
+              </div>
+              <div class="text-end">
+                <button class="btn-sent border-0 text-white">KIRIM</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end content -->
+  </body>
+</html>

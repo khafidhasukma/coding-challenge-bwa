@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge-bwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khafidhasukma/coding-challenge-bwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khafidhasukma/coding-challenge-bwa/issues"
+  },
+  "homepage": "https://github.com/khafidhasukma/coding-challenge-bwa#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
